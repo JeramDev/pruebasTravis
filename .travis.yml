@@ -10,6 +10,6 @@ env:
   - REMOTE_USER=deploy
   - REMOTE_HOST=167.172.168.233
 before_install:
-- bash scripts/install.sh
+- bash ./scripts/install.sh
 after_success:
-- bash scripts/deploy.sh
+- bash ./scripts/deploy.sh
